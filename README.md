@@ -1,7 +1,7 @@
-# BERT Fine-tuning with [ColossalAI](https://github.com/hpcaitech/ColossalAI)
+# BERT Fine-tuning with ColossalAI
 
 ## Overview
-This repository contains code for fine-tuning a pre-trained language model "Bidirectional Encoder Representations from Transformers" (BERT) using ColossalAI.
+This repository contains code for fine-tuning a pre-trained language model "Bidirectional Encoder Representations from Transformers" (BERT) using [ColossalAI](https://github.com/hpcaitech/ColossalAI).
 
 ## Model
 Model: Bidirectional Encoder Representations from Transformers (BERT: `bert-base-uncased`)
