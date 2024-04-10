@@ -35,6 +35,6 @@ This code is designed to run on a single GPU in Google Colab.
 | torch_ddp      | 83.4%    | 88.1%    |    1     |
 
 ## Note:
-Since the `bert.ipynb` file was originally run on Google Colab, all the running logs are recorded in it. However, there was some log information missing when it was downloaded from Colab. For example, all progress bars are 100% on Colab but show 0% after the download.
+Since the `bert.ipynb` file was originally run on Google Colab, all the running logs are recorded in it. However, there was some log information missing when it was downloaded from Colab. For example, all progress bars are 100% on Colab but some show 0% after the download.
 
 
