@@ -17,7 +17,7 @@ Dataset: GLUE (General Language Understanding Evaluation)
 ```
 
 ## Parallel Settings
-Parallel mode: torch_ddp (PyTorch Distributed Data Parallel)
+This code is designed to run on a single GPU in Google Colab.
 
 ## Configuration
 * The hyperparameter configuration (e.g. `NUM_EPOCHS`, `BATCH_SIZE`, `LEARNING_RATE`, etc.) can be found under the Hyperparameters block in `bert.ipynb`.
@@ -35,6 +35,6 @@ Parallel mode: torch_ddp (PyTorch Distributed Data Parallel)
 | torch_ddp      | 83.4%    | 88.1%    |    1     |
 
 ## Note:
-Since the `bert.ipynb` file is originally running on Google Colab, all the running log are recorded in it. However, there were some log information missing when it was downloaded from Colab. For example, all progress bars are 100% on the colab but show 0% after the download.
+Since the `bert.ipynb` file was originally run on Google Colab, all the running logs are recorded in it. However, there was some log information missing when it was downloaded from Colab. For example, all progress bars are 100% on Colab but show 0% after the download.
 
 
